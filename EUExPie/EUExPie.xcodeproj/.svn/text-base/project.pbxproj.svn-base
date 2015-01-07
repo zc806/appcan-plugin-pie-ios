@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4DE77D16DC6528005C97D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4DE77C16DC6528005C97D4 /* Foundation.framework */; };
+		5A503DFD16E0991C00A7FEC4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A503DFC16E0991C00A7FEC4 /* QuartzCore.framework */; };
+		5AA1F857188E440700EA534C /* EUExPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F84B188E440700EA534C /* EUExPie.m */; };
+		5AA1F858188E440700EA534C /* PCPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F856188E440700EA534C /* PCPieChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A4DE77716DC6528005C97D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A4DE77916DC6528005C97D4 /* libuexPie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexPie.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4DE77C16DC6528005C97D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A4DE78016DC6528005C97D4 /* EUExPie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExPie-Prefix.pch"; sourceTree = "<group>"; };
+		5A503DFC16E0991C00A7FEC4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5AA1F847188E440700EA534C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		5AA1F848188E440700EA534C /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		5AA1F849188E440700EA534C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		5AA1F84A188E440700EA534C /* EUExPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExPie.h; sourceTree = "<group>"; };
+		5AA1F84B188E440700EA534C /* EUExPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUExPie.m; sourceTree = "<group>"; };
+		5AA1F84E188E440700EA534C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		5AA1F84F188E440700EA534C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		5AA1F850188E440700EA534C /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		5AA1F851188E440700EA534C /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		5AA1F852188E440700EA534C /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		5AA1F853188E440700EA534C /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		5AA1F854188E440700EA534C /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		5AA1F855188E440700EA534C /* PCPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPieChart.h; sourceTree = "<group>"; };
+		5AA1F856188E440700EA534C /* PCPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPieChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4DE77616DC6528005C97D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A503DFD16E0991C00A7FEC4 /* QuartzCore.framework in Frameworks */,
+				5A4DE77D16DC6528005C97D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4DE76E16DC6527005C97D4 = {
+			isa = PBXGroup;
+			children = (
+				5A4DE77E16DC6528005C97D4 /* EUExPie */,
+				5A4DE77B16DC6528005C97D4 /* Frameworks */,
+				5A4DE77A16DC6528005C97D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4DE77A16DC6528005C97D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4DE77916DC6528005C97D4 /* libuexPie.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4DE77B16DC6528005C97D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A503DFC16E0991C00A7FEC4 /* QuartzCore.framework */,
+				5A4DE77C16DC6528005C97D4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A4DE77E16DC6528005C97D4 /* EUExPie */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1F846188E440700EA534C /* engineHeader */,
+				5AA1F84A188E440700EA534C /* EUExPie.h */,
+				5AA1F84B188E440700EA534C /* EUExPie.m */,
+				5AA1F84C188E440700EA534C /* sourceCode */,
+				5A4DE77F16DC6528005C97D4 /* Supporting Files */,
+			);
+			path = EUExPie;
+			sourceTree = "<group>";
+		};
+		5A4DE77F16DC6528005C97D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A4DE78016DC6528005C97D4 /* EUExPie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AA1F846188E440700EA534C /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1F847188E440700EA534C /* EUExBase.h */,
+				5AA1F848188E440700EA534C /* EUExBaseDefine.h */,
+				5AA1F849188E440700EA534C /* EUtility.h */,
+			);
+			path = engineHeader;
+			sourceTree = "<group>";
+		};
+		5AA1F84C188E440700EA534C /* sourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1F84D188E440700EA534C /* JSON */,
+				5AA1F855188E440700EA534C /* PCPieChart.h */,
+				5AA1F856188E440700EA534C /* PCPieChart.m */,
+			);
+			path = sourceCode;
+			sourceTree = "<group>";
+		};
+		5AA1F84D188E440700EA534C /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1F84E188E440700EA534C /* JSON.h */,
+				5AA1F84F188E440700EA534C /* NSObject+SBJSON.h */,
+				5AA1F850188E440700EA534C /* NSString+SBJSON.h */,
+				5AA1F851188E440700EA534C /* SBJSON.h */,
+				5AA1F852188E440700EA534C /* SBJsonBase.h */,
+				5AA1F853188E440700EA534C /* SBJsonParser.h */,
+				5AA1F854188E440700EA534C /* SBJsonWriter.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4DE77816DC6528005C97D4 /* EUExPie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4DE78716DC6528005C97D4 /* Build configuration list for PBXNativeTarget "EUExPie" */;
+			buildPhases = (
+				5A4DE77516DC6528005C97D4 /* Sources */,
+				5A4DE77616DC6528005C97D4 /* Frameworks */,
+				5A4DE77716DC6528005C97D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUExPie;
+			productName = EUExPie;
+			productReference = 5A4DE77916DC6528005C97D4 /* libuexPie.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4DE77016DC6527005C97D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = xll;
+			};
+			buildConfigurationList = 5A4DE77316DC6528005C97D4 /* Build configuration list for PBXProject "EUExPie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A4DE76E16DC6527005C97D4;
+			productRefGroup = 5A4DE77A16DC6528005C97D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4DE77816DC6528005C97D4 /* EUExPie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4DE77516DC6528005C97D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA1F858188E440700EA534C /* PCPieChart.m in Sources */,
+				5AA1F857188E440700EA534C /* EUExPie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A4DE78516DC6528005C97D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPie/";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A4DE78616DC6528005C97D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPie/";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A4DE78816DC6528005C97D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPie/";
+				DSTROOT = /tmp/EUExPie.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExPie/EUExPie-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexPie;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A4DE78916DC6528005C97D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPie/";
+				DSTROOT = /tmp/EUExPie.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExPie/EUExPie-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexPie;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4DE77316DC6528005C97D4 /* Build configuration list for PBXProject "EUExPie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4DE78516DC6528005C97D4 /* Debug */,
+				5A4DE78616DC6528005C97D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4DE78716DC6528005C97D4 /* Build configuration list for PBXNativeTarget "EUExPie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4DE78816DC6528005C97D4 /* Debug */,
+				5A4DE78916DC6528005C97D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4DE77016DC6527005C97D4 /* Project object */;
+}
